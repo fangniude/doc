@@ -209,8 +209,8 @@ e6b3070455b52ee005a3efb9bee46cf8579d69a6
 ➜  .git git:(master) git cat-file -p 0a2602e6fef30eae8ecb627295dc53f792eb90b7
 tree 08405c558961bf4cd0ce14f54443e73935efd65a
 parent 096c44245e9cefde2e3fe5903f983b5686e60874
-author Lewis <lpp@servyou.com.cn> 1571896152 +0800
-committer Lewis <lpp@servyou.com.cn> 1571896152 +0800
+author Lewis <a@b.com> 1571896152 +0800
+committer Lewis <a@b.com> 1571896152 +0800
 
 1.0.3-SNAPSHOT
 
@@ -219,8 +219,8 @@ Change-Id: I28e490e5fae9b0296747d82a7d892edb519b3cab
 ➜  .git git:(master) git cat-file -p 096c44245e9cefde2e3fe5903f983b5686e60874
 tree e5617b721d22bdfb9480c80b321cdb6b3065fb5e
 parent 81e1daa43c6cc0b8487af7ace2df9a79766e6247
-author Lewis <lpp@servyou.com.cn> 1571895563 +0800
-committer Lewis <lpp@servyou.com.cn> 1571895563 +0800
+author Lewis <a@b.com> 1571895563 +0800
+committer Lewis <a@b.com> 1571895563 +0800
 
 add scm config
 
@@ -229,8 +229,8 @@ Change-Id: I5b062f5475ce1907abdfd70bf432858ea46f54aa
 ➜  .git git:(master) git cat-file -p 81e1daa43c6cc0b8487af7ace2df9a79766e6247
 tree 0b7654fe8f8f85d2e1eea6fa060deff25d00d5e3
 parent a925d410ed74c0e5fe86204f065b23cc9a50793c
-author zyi <zyi@servyou.com.cn> 1571819772 +0800
-committer zyi <zyi@servyou.com.cn> 1571819772 +0800
+author test a@b.com 1571819772 +0800
+committer test a@b.com 1571819772 +0800
 
 1，消除common3的依赖。
 2，基于spring-boot-dependencies管理依赖。
@@ -240,8 +240,8 @@ Change-Id: Ieb865698162aa73321d2ff22d7e550bf051f7625
 ➜  .git git:(master) git cat-file -p a925d410ed74c0e5fe86204f065b23cc9a50793c
 tree 83c980d2db04066ea0039ce85df8633151043fc5
 parent 24cfa38db8f33c5c4187ce608d4bef223b2e594b
-author Lewis <lpp@servyou.com.cn> 1571234523 +0800
-committer Lewis <lpp@servyou.com.cn> 1571235719 +0800
+author Lewis <a@b.com> 1571234523 +0800
+committer Lewis <a@b.com> 1571235719 +0800
 
 updating poms for branch'release/1.0.1' with non-snapshot versions
 
@@ -249,7 +249,7 @@ Change-Id: I5690493a0bcd5de37678015e319c69d333abeb9c
 # 6. 看看能不能和log对应上
 ➜  .git git:(master) git log -4
 commit 0a2602e6fef30eae8ecb627295dc53f792eb90b7 (HEAD -> master, origin/master, origin/HEAD)
-Author: Lewis <lpp@servyou.com.cn>
+Author: Lewis <a@b.com>
 Date:   Thu Oct 24 13:49:12 2019 +0800
 
     1.0.3-SNAPSHOT
@@ -257,7 +257,7 @@ Date:   Thu Oct 24 13:49:12 2019 +0800
     Change-Id: I28e490e5fae9b0296747d82a7d892edb519b3cab
 
 commit 096c44245e9cefde2e3fe5903f983b5686e60874
-Author: Lewis <lpp@servyou.com.cn>
+Author: Lewis <a@b.com>
 Date:   Thu Oct 24 13:39:23 2019 +0800
 
     add scm config
@@ -265,7 +265,7 @@ Date:   Thu Oct 24 13:39:23 2019 +0800
     Change-Id: I5b062f5475ce1907abdfd70bf432858ea46f54aa
 
 commit 81e1daa43c6cc0b8487af7ace2df9a79766e6247
-Author: zyi <zyi@servyou.com.cn>
+Author: test a@b.com
 Date:   Wed Oct 23 16:36:12 2019 +0800
 
     1，消除common3的依赖。
@@ -274,7 +274,7 @@ Date:   Wed Oct 23 16:36:12 2019 +0800
     Change-Id: Ieb865698162aa73321d2ff22d7e550bf051f7625
 
 commit a925d410ed74c0e5fe86204f065b23cc9a50793c
-Author: Lewis <lpp@servyou.com.cn>
+Author: Lewis <a@b.com>
 Date:   Wed Oct 16 22:02:03 2019 +0800
 
     updating poms for branch'release/1.0.1' with non-snapshot versions
@@ -405,7 +405,7 @@ e6b3070455b52ee005a3efb9bee46cf8579d69a6
 object b9704112bde683d79bbebb30a13f1b5c1b232bf5
 type commit
 tag 1.0.2
-tagger Lewis <lpp@servyou.com.cn> 1571895731 +0800
+tagger Lewis <a@b.com> 1571895731 +0800
 
 [maven-release-plugin] copy for tag 1.0.2
 
@@ -413,8 +413,8 @@ tagger Lewis <lpp@servyou.com.cn> 1571895731 +0800
 ➜  .git git:(master) git cat-file -p b9704112bde683d79bbebb30a13f1b5c1b232bf5
 tree 153fbed953f8a8cdbb9dcbb89ae823ff33473c15
 parent 728c4cfa2508a9ac839ac20c281a0c4cbe39c355
-author Lewis <lpp@servyou.com.cn> 1571895730 +0800
-committer Lewis <lpp@servyou.com.cn> 1571895730 +0800
+author Lewis <a@b.com> 1571895730 +0800
+committer Lewis <a@b.com> 1571895730 +0800
 
 [maven-release-plugin] prepare release 1.0.2
 
@@ -437,8 +437,8 @@ Change-Id: I195493aca7aa6a157b61c1e3391f27d0b53e8f4e
 ➜  .git git:(master) git cat-file -p 0a2602e6fef30eae8ecb627295dc53f792eb90b7
 tree 08405c558961bf4cd0ce14f54443e73935efd65a
 parent 096c44245e9cefde2e3fe5903f983b5686e60874
-author Lewis <lpp@servyou.com.cn> 1571896152 +0800
-committer Lewis <lpp@servyou.com.cn> 1571896152 +0800
+author Lewis <a@b.com> 1571896152 +0800
+committer Lewis <a@b.com> 1571896152 +0800
 
 1.0.3-SNAPSHOT
 
