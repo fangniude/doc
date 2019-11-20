@@ -26,13 +26,13 @@ ArangoDB，是无单点故障的，主-主模式的，CP架构的集群。
 
 我从其他地方找了几张图，供参考。
 
-![ 架构图1](https://docs.arangodb.com/3.1/Manual/Deployment/simple_cluster.png)
+![ 架构图1](ArangoDB集群.assets/simple_cluster.png)
 
-![集群架构](https://www.arangodb.com/wp-content/uploads/2016/01/cluster_topology-1.png)
+![集群架构](ArangoDB集群.assets/cluster_topology-1.png)
 
 
 
-![数据分布](https://image.slidesharecdn.com/deepdiveintothenativemulti-modeldatabasearangodb-160503121059/95/deep-dive-into-the-native-multi-model-database-arangodb-75-638.jpg?cb=1462277880)
+![数据分布](ArangoDB集群.assets/deep-dive-into-the-native-multi-model-database-arangodb-75-638.jpg)
 
 
 
@@ -66,7 +66,7 @@ Secondary：可选，可以理解成Primary的备份。
 
 在创建集合时，可以指定副本数，默认是根据`_key`做Hash来分发，具体算法文档中没有明确说明，猜测可能是`一致性Hash`。
 
-![image-20180626174402835](https://ws4.sinaimg.cn/large/006tKfTcgy1fsoq12todoj30i00ckgmg.jpg)
+![image-20180626174402835](ArangoDB集群.assets/006tKfTcgy1fsoq12todoj30i00ckgmg.jpg)
 
 ### 1.3.2 一致性
 

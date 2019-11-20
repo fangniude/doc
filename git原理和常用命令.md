@@ -68,7 +68,7 @@ HEAD指向当前 工作空间 中的内容，是指向哪儿的。
 
 一图胜千言，下面图说明了这几种对象 和 引用 的关系。
 
-![9FCC278E-965F-431C-9C42-0CAA94403CD7](https://tva1.sinaimg.cn/large/006y8mN6ly1g8gd3ey111j30c30fitaw.jpg)
+![9FCC278E-965F-431C-9C42-0CAA94403CD7](git原理和常用命令.assets/006y8mN6ly1g8gd3ey111j30c30fitaw.jpg)
 
 - git是管理一个文件夹中所有的文件 及 历史的一套系统；
 - 通过版本来管理历史，一个版本是一个commit；
